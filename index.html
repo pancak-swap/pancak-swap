@@ -4,17 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PancakeSwap</title>
+  <link rel="icon" href="https://pancakeswap.finance/images/favicon.ico" />
   <style>
     * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
     }
 
     body {
       font-family: 'Segoe UI', sans-serif;
       background-color: #1e1f36;
-      color: #fff;
+      color: #ffffff;
+      line-height: 1.6;
     }
 
     header {
@@ -22,28 +24,28 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 15px 40px;
+      padding: 20px 40px;
       position: sticky;
       top: 0;
-      z-index: 1000;
+      z-index: 999;
     }
 
     .logo {
       display: flex;
       align-items: center;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       font-weight: bold;
       color: #ffd166;
     }
 
     .logo img {
       height: 40px;
-      margin-right: 10px;
+      margin-right: 12px;
     }
 
     nav a {
-      margin-left: 20px;
-      color: #fff;
+      margin-left: 25px;
+      color: #ffffff;
       text-decoration: none;
       font-weight: 500;
     }
@@ -54,7 +56,7 @@
 
     .hero {
       text-align: center;
-      padding: 100px 20px;
+      padding: 100px 20px 80px;
       background: linear-gradient(to right, #3a3b5c, #1e1f36);
     }
 
@@ -73,11 +75,11 @@
       background-color: #ffd166;
       color: #1e1f36;
       padding: 14px 28px;
-      border: none;
       border-radius: 8px;
       font-size: 1rem;
       font-weight: bold;
       text-decoration: none;
+      transition: background 0.3s ease;
     }
 
     .btn:hover {
@@ -156,36 +158,36 @@
 
   <section class="hero">
     <h1>Swap, Earn, and Win on BNB Chain</h1>
-    <p>PancakeSwap is the leading decentralized exchange on BNB Chain with the best farms in DeFi.</p>
+    <p>PancakeSwap is a leading DEX on BNB Chain with the best DeFi features.</p>
     <a href="#connect" class="btn">Connect Wallet</a>
   </section>
 
   <section class="features">
-    <div class="feature">
+    <div class="feature" id="trade">
       <h3>Trade Tokens</h3>
-      <p>Instantly swap crypto tokens with the lowest fees on the BNB Smart Chain.</p>
+      <p>Swap tokens instantly with low fees and slippage on BNB Chain.</p>
     </div>
-    <div class="feature">
+    <div class="feature" id="earn">
       <h3>Earn CAKE</h3>
-      <p>Stake LP tokens and earn CAKE with high APRs in Syrup Pools and Farms.</p>
+      <p>Stake LP tokens and earn CAKE rewards with high APRs.</p>
+    </div>
+    <div class="feature" id="nft">
+      <h3>Explore NFTs</h3>
+      <p>Trade and collect NFTs through the PancakeSwap marketplace.</p>
     </div>
     <div class="feature">
-      <h3>Win Big</h3>
-      <p>Join lotteries, prediction markets, and team battles to win crypto prizes.</p>
-    </div>
-    <div class="feature">
-      <h3>NFT Marketplace</h3>
-      <p>Explore and trade unique NFTs with low gas fees and high-speed transactions.</p>
+      <h3>Community First</h3>
+      <p>Join a vibrant community shaping the future of DeFi together.</p>
     </div>
   </section>
 
   <section class="cta" id="connect">
-    <h2>Ready to Join the Pancake Party?</h2>
+    <h2>Ready to Flip Some Crypto?</h2>
     <a class="btn" href="#">Connect Wallet</a>
   </section>
 
   <div class="footer">
-    &copy; 2025 PancakeSwap Clone. This is a demo site for educational purposes only.
+  
   </div>
 
 </body>
